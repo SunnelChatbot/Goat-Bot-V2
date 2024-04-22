@@ -1,1 +1,65 @@
-const _0x10aad8=_0x110e;(function(_0xb04296,_0x5ca248){const _0xf534ab=_0x110e,_0x35f2dd=_0xb04296();while(!![]){try{const _0x2edf6f=-parseInt(_0xf534ab(0x195))/0x1*(-parseInt(_0xf534ab(0x199))/0x2)+parseInt(_0xf534ab(0x19c))/0x3*(parseInt(_0xf534ab(0x18e))/0x4)+-parseInt(_0xf534ab(0x18d))/0x5+parseInt(_0xf534ab(0x193))/0x6+parseInt(_0xf534ab(0x181))/0x7*(-parseInt(_0xf534ab(0x19a))/0x8)+-parseInt(_0xf534ab(0x184))/0x9*(-parseInt(_0xf534ab(0x19f))/0xa)+parseInt(_0xf534ab(0x19b))/0xb;if(_0x2edf6f===_0x5ca248)break;else _0x35f2dd['push'](_0x35f2dd['shift']());}catch(_0x294d55){_0x35f2dd['push'](_0x35f2dd['shift']());}}}(_0x32d6,0x427f1));function _0x110e(_0x22c4ef,_0xd2c28f){const _0x32d682=_0x32d6();return _0x110e=function(_0x110ed4,_0x89f216){_0x110ed4=_0x110ed4-0x17f;let _0x80617=_0x32d682[_0x110ed4];return _0x80617;},_0x110e(_0x22c4ef,_0xd2c28f);}function _0x32d6(){const _0x823f66=['Please\x20provide\x20a\x20prompt\x20to\x20generate\x20a\x20text\x20response.\x0aExample:\x20ai\x20What\x20is\x20the\x20meaning\x20of\x20life?','config','4430oIDYXd','get','\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20━━━━━━━━━━━━━━━━━━━\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','&model=gpt-4-32k-0314','35WKtHek','data','Error:','5823uvQnCH','response','axios','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🤖\x20AI\x20Response:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20━━━━━━━━━━━━━━━━━━━\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📌\x20Your\x20Prompt:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22','stringify','join','api\x20by\x20jerome','sendMessage','run','1997740hLvzPY','47912zjjZCj','messageID','exports','threadID','error','14856QLSAfa','body','5WYXGXr','http://fi1.bot-hosting.net:6518/gpt?query=','Gpt\x20architecture','API\x20response\x20did\x20not\x20contain\x20expected\x20data:','176942SUTooK','861192TrFZOy','2498892DUdFmi','63JPoPfk'];_0x32d6=function(){return _0x823f66;};return _0x32d6();}const axios=require(_0x10aad8(0x186));module[_0x10aad8(0x190)][_0x10aad8(0x19e)]={'name':'ai','version':'1.0.0','hasPermission':0x0,'credits':_0x10aad8(0x18a),'description':_0x10aad8(0x197),'usePrefix':![],'commandCategory':'GPT4','cooldowns':0x5},module[_0x10aad8(0x190)][_0x10aad8(0x18c)]=async function({api:_0x1a65dd,event:_0x129feb,args:_0x3447aa}){const _0x1818d0=_0x10aad8;try{const {messageID:_0x3982a1,messageReply:_0x452cb0}=_0x129feb;let _0xa7eccd=_0x3447aa[_0x1818d0(0x189)]('\x20');if(_0x452cb0&&!_0xa7eccd){const _0x50a417=_0x452cb0[_0x1818d0(0x194)];_0xa7eccd=_0x50a417;}else{if(!_0xa7eccd)return _0x1a65dd['sendMessage'](_0x1818d0(0x19d),_0x129feb[_0x1818d0(0x191)],_0x3982a1);}_0x1a65dd['sendMessage']('🤖\x20Processing\x20your\x20request...',_0x129feb[_0x1818d0(0x191)]),await new Promise(_0x2adb56=>setTimeout(_0x2adb56,0x7d0));const _0x1b4bc6=_0x1818d0(0x196)+encodeURIComponent(_0xa7eccd)+_0x1818d0(0x180),_0x49d4e9=await axios[_0x1818d0(0x1a0)](_0x1b4bc6);if(_0x49d4e9[_0x1818d0(0x182)]&&_0x49d4e9[_0x1818d0(0x182)][_0x1818d0(0x185)]){const _0x2e9f35=_0x49d4e9[_0x1818d0(0x182)][_0x1818d0(0x185)],_0x271e54=_0x1818d0(0x187)+_0xa7eccd+'\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📝\x20Generated\x20Text:\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22'+_0x2e9f35+_0x1818d0(0x17f);_0x1a65dd[_0x1818d0(0x18b)](_0x271e54,_0x129feb['threadID'],_0x3982a1);}else console[_0x1818d0(0x192)](_0x1818d0(0x198),_0x49d4e9[_0x1818d0(0x182)]),_0x1a65dd[_0x1818d0(0x18b)]('❌\x20An\x20error\x20occurred\x20while\x20generating\x20the\x20text\x20response.\x20Please\x20try\x20again\x20later.\x20Response\x20data:\x20'+JSON[_0x1818d0(0x188)](_0x49d4e9[_0x1818d0(0x182)]),_0x129feb[_0x1818d0(0x191)],_0x3982a1);}catch(_0x52baf4){console['error'](_0x1818d0(0x183),_0x52baf4),_0x1a65dd[_0x1818d0(0x18b)]('❌\x20An\x20error\x20occurred\x20while\x20generating\x20the\x20text\x20response.\x20Please\x20try\x20again\x20later.\x20Error\x20details:\x20'+_0x52baf4['message'],_0x129feb['threadID'],_0x129feb[_0x1818d0(0x18f)]);}};
+const axios = require('axios');
+
+const Prefixes = [
+  'gpt',
+  'ai',
+  'ask',
+];
+
+module.exports = {
+  config: {
+    name: 'hercai',
+    version: '2.5.4',
+    author: 'cliff',//credits owner of this api
+    role: 0,
+    category: 'ai',
+    shortDescription: {
+      en: 'Asks an AI for an answer.',
+    },
+    longDescription: {
+      en: 'Asks an AI for an answer based on the user prompt.',
+    },
+    guide: {
+      en: '{pn} [prompt]',
+    },
+  },
+  onStart: async function () {},
+  onChat: async function ({ api, event, args, message }) {
+    try {
+      const prefix = Prefixes.find((p) => event.body && event.body.toLowerCase().startsWith(p));
+
+      if (!prefix) {
+        return;
+      }
+
+      const prompt = event.body.substring(prefix.length).trim();
+
+      if (prompt === '') {
+        await message.reply(
+          "Kindly provide the question at your convenience and I shall strive to deliver an effective response. Your satisfaction is my top priority."
+        );
+        return;
+      }
+
+      await message.reply("Answering your question. Please wait a moment...");
+
+      const response = await axios.get(`https://hercai.onrender.com/v3/hercai?question=${encodeURIComponent(prompt)}`);
+
+      if (response.status !== 200 || !response.data) {
+        throw new Error('Invalid or missing response from API');
+      }
+
+      const messageText = response.data.content.trim();
+
+      await message.reply(messageText);
+
+      console.log('Sent answer as a reply to user');
+    } catch (error) {
+      console.error(`Failed to get answer: ${error.message}`);
+      api.sendMessage(
+        `${error.message}.\n\nYou can try typing your question again or resending it, as there might be a bug from the server that's causing the problem. It might resolve the issue.`,
+        event.threadID
+      );
+    }
+  },
+};
