@@ -1,4 +1,4 @@
-Whokilled Khilay +cmd install ai.js const axios = require('axios');
+const axios = require('axios');
 
 const Prefixes = [
   '/ai',
