@@ -24,6 +24,10 @@ module.exports = {
   onStart: async function () {},
   onChat: async function ({ api, event, args, message }) {
     try {
+      const userData = await api.getUserInfo(event.senderID);
+      const userName = userData[event.senderID].name;
+      
+      api.setMessageReaction("⏳", event.messageID);
       
       const prefix = Prefixes.find((p) => event.body && event.body.toLowerCase().startsWith(p));
       if (!prefix) {
@@ -37,8 +41,13 @@ module.exports = {
 
       const response = await axios.get(`https://sandipbaruwal.onrender.com/gpt?prompt=${encodeURIComponent(prompt)}`);
       const answer = response.data.answer;
-
- 
+      
+      if (response.data) {
+        const reply = response.data.reply;
+        api.sendMessage(`🔥 | Herc.ai\n━━━━━━━━━━━━━━━\n${reply}\n\n🗣️ | Question asked by ${userName}`, event.threadID, event.messageID);
+        api.setMessageReaction("✅", event.messageID);
+      }
+      
     await message.reply(answer);
 
     } catch (error) {
